@@ -4,6 +4,8 @@ export default class Person {
         this.life = life;
     }
 
+    isDead = () => this.life === 0;
+
     looseLife(pv) {
         this.life -= pv;
     }

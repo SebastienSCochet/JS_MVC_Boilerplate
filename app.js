@@ -1,9 +1,10 @@
+import Controller from './controller/controller.js';
 import PersonController from './controller/person_controller.js';
 
 $(function () {
 
-    let personController = new PersonController();
+    let controller = new Controller();
 
-    personController.load();
+    controller.load('person', new PersonController());
 
 })

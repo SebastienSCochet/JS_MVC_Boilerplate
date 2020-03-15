@@ -2,7 +2,7 @@ export default class PersonRenderer {
     constructor() {
     }
 
-    show(name, life) {
+    displayInfo(name, life) {
         $('#name').html(`<p>Nom : ${name}</p>`);
         $('#life').html(`<p>Vie : ${life}</p>`);
 
